@@ -13,10 +13,10 @@ const MONTHS = [
     "December",
 ];
 
-function monthName(date) {
+var month_name = function (date) {
     let m = date.getMonth();
     return MONTHS[m];
-}
+};
 
-console.log(monthName(new Date("10/11/2009")));
-console.log(monthName(new Date("11/13/2014")));
+console.log(month_name(new Date("10/11/2009")));
+console.log(month_name(new Date("11/13/2014")));
